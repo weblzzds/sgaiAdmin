@@ -1,37 +1,95 @@
-# 前端框架-模板构建
+English | [简体中文](./README.zh-CN.md)
 
-#### 项目介绍
-这是我和我们前端同事公共开发维护的开源小架构-模板，基于react和ant，
+# Ant Design Pro
 
-#### 软件架构
-软件架构说明
+[![](https://img.shields.io/travis/ant-design/ant-design-pro/master.svg?style=flat-square)](https://travis-ci.org/ant-design/ant-design-pro) [![Build status](https://ci.appveyor.com/api/projects/status/67fxu2by3ibvqtat/branch/master?svg=true)](https://ci.appveyor.com/project/afc163/ant-design-pro/branch/master)  [![Gitter](https://badges.gitter.im/ant-design/ant-design-pro.svg)](https://gitter.im/ant-design/ant-design-pro?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+An out-of-box UI solution for enterprise applications as a React boilerplate.
 
-#### 安装教程
+![](https://gw.alipayobjects.com/zos/rmsportal/xEdBqwSzvoSapmnSnYjU.png)
 
-1. xxxx
-2. xxxx
-3. xxxx
+<!-- - Preview: http://preview.pro.ant.design
+- Home Page: http://pro.ant.design
+- Documentation: http://pro.ant.design/docs/getting-started
+- ChangeLog: http://pro.ant.design/docs/changelog
+- FAQ: http://pro.ant.design/docs/faq -->
+- Mirror Site in China: http://ant-design-pro.gitee.io
 
-#### 使用说明
+## Translation Recruitment :loudspeaker:
 
-1. xxxx
-2. xxxx
-3. xxxx
+We need your help: https://github.com/ant-design/ant-design-pro/issues/120
 
-#### 参与贡献
+## Features
 
-1. Fork 本项目
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
+- :gem: **Neat Design**: Follow [Ant Design specification](http://ant.design/)
+- :triangular_ruler: **Common Templates**: Typical templates for enterprise applications
+- :rocket: **State of The Art Development**: Newest development stack of React/dva/antd
+- :iphone: **Responsive**: Designed for varies of screen size
+- :art: **Theming**: Customizable theme with simple config
+- :globe_with_meridians: **International**: Built-in i18n solution
+- :gear: **Best Practice**: Solid workflow make your code health
+- :1234: **Mock development**: Easy to use mock development solution
+- :white_check_mark: **UI Test**: Fly safely with unit test and e2e test
 
+## Templates
 
-#### 码云特技
+```
+- Dashboard
+  - Analytic
+  - Monitor
+  - Workspace
+- Form
+  - Basic Form
+  - Step Form
+  - Advanced From
+- List
+  - Standard Table
+  - Standard List
+  - Card List
+  - Search List (Project/Applications/Article)
+- Profile
+  - Simple Profile
+  - Advanced Profile
+- Result
+  - Success
+  - Failed
+- Exception
+  - 403
+  - 404
+  - 500
+- User
+  - Login
+  - Register
+  - Register Result
+```
 
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [http://git.mydoc.io/](http://git.mydoc.io/)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## Usage
+
+```bash
+$ git clone https://github.com/ant-design/ant-design-pro.git --depth=1
+$ cd ant-design-pro
+$ npm install
+$ npm start         # visit http://localhost:8000
+```
+
+Or you can use the command tool: [ant-design-pro-cli](https://github.com/ant-design/ant-design-pro-cli)
+
+```bash
+$ npm install ant-design-pro-cli -g
+$ mkdir pro-demo && cd pro-demo
+$ pro new
+```
+
+More instruction at [documentation](http://pro.ant.design/docs/getting-started).
+
+## Compatibility
+
+Modern browsers and IE11.
+
+## Contributing
+
+Any Contribution of following ways will be welcome:
+
+- Use Ant Design Pro in your daily work.
+- Submit [issue](http://github.com/ant-design/ant-design-pro/issues) to report bug or ask questions.
+- Propose [pull request](http://github.com/ant-design/ant-design-pro/pulls) to improve our code.
