@@ -1,10 +1,10 @@
-English | [简体中文](./README.zh-CN.md)
+# 几个年轻人学点手艺
 
-# Ant Design Pro
+* 通过这个项目学习react
+* 通过这个项目学习Ant
+* 根据以往的项目，抽取了常用的东西出来，方便以后有类似的项目的时候能快速开发
 
-[![](https://img.shields.io/travis/ant-design/ant-design-pro/master.svg?style=flat-square)](https://travis-ci.org/ant-design/ant-design-pro) [![Build status](https://ci.appveyor.com/api/projects/status/67fxu2by3ibvqtat/branch/master?svg=true)](https://ci.appveyor.com/project/afc163/ant-design-pro/branch/master)  [![Gitter](https://badges.gitter.im/ant-design/ant-design-pro.svg)](https://gitter.im/ant-design/ant-design-pro?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-An out-of-box UI solution for enterprise applications as a React boilerplate.
 
 ![](https://gw.alipayobjects.com/zos/rmsportal/xEdBqwSzvoSapmnSnYjU.png)
 
@@ -31,7 +31,7 @@ We need your help: https://github.com/ant-design/ant-design-pro/issues/120
 - :1234: **Mock development**: Easy to use mock development solution
 - :white_check_mark: **UI Test**: Fly safely with unit test and e2e test
 
-## Templates
+## 模板
 
 ```
 - Dashboard
@@ -63,33 +63,29 @@ We need your help: https://github.com/ant-design/ant-design-pro/issues/120
   - Register Result
 ```
 
-## Usage
+## 开始
 
 ```bash
-$ git clone https://github.com/ant-design/ant-design-pro.git --depth=1
-$ cd ant-design-pro
+$ git clone https://github.com/gui-sukla/sgaiAdmin.git
+$ cd sgaiAdmin
 $ npm install
 $ npm start         # visit http://localhost:8000
 ```
 
-Or you can use the command tool: [ant-design-pro-cli](https://github.com/ant-design/ant-design-pro-cli)
 
-```bash
-$ npm install ant-design-pro-cli -g
-$ mkdir pro-demo && cd pro-demo
-$ pro new
-```
 
-More instruction at [documentation](http://pro.ant.design/docs/getting-started).
 
-## Compatibility
+## 兼容
 
 Modern browsers and IE11.
 
-## Contributing
+## 伙伴
 
-Any Contribution of following ways will be welcome:
+成员|描述
+-|-
+大宇|面向面试编程
+小强|面向面试编程
+小娟|面向面试编程
+小兵|面向面试编程
+我|面向面试编程
 
-- Use Ant Design Pro in your daily work.
-- Submit [issue](http://github.com/ant-design/ant-design-pro/issues) to report bug or ask questions.
-- Propose [pull request](http://github.com/ant-design/ant-design-pro/pulls) to improve our code.
