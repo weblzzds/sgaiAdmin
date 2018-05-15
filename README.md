@@ -63,3 +63,67 @@ zhang645|打野|随时GANK
 凯茜|ADC|好好发育
 皮|上单|上单稳住
 sukla|辅助|买眼打酱油
+
+### git pull
+
+## 清除变更
+
+### git checkout .
+
+## 添加文件到本地仓库
+
+### git add 
+
+## 查看服务器地址
+
+### git remote
+
+## 检查本地仓库文件状态
+
+### git status
+
+## 保存变更到本地仓库
+
+### git commit -m "备注"
+
+## 提交变更到服务器主分支
+
+### git push origin master
+
+## 创建分支
+
+## 合并分支
+
+## 删除分支
+
+## 多人开发
+
+### 创建一个组织
+
+### 添加成员
+
+### 添加一个项目
+
+### 将一个已有的项目添加进来
+
+#### 第一步要设置当前的项目的remote
+
+##### 删除本地项目原来的remote-->git remote rm origion
+
+##### 设置为当前组里添加的哪一个项目的ssh路径-->git add origion git@github.com:weblzzds/sgaiAdmin.git
+
+#### 第二步要将两个项目的分支合并
+
+##### 设置对应的分支-->git branch --set-upstream dev origin/<branch>
+
+##### 允许两个不同的项目合并-->git pull origin master --allow-unrelated-histories
+
+#### 第三步要设置开发人员的ssh并添加到sshkeys
+
+##### 生成ssh公钥(在gitbash终端)-->ssh-keygen -t rsa -C "git的用户名"
+
+##### 终端中一路回车最后生成了ssh在这个目录-->Your public key has been saved in /c/Users/Sukla/.ssh/id_rsa.pub.
+
+##### 使用cat命令查看文件内容-->cat /c/Users/Sukla/.ssh/id_rsa.pub
+
+##### 将cat返回的内容全部copy添加到项目的sshkeys中
